@@ -1,3 +1,7 @@
+body {
+  Font-family: ‘Segoe UI’, Arial, sans-serif;
+}
+
 .navbar-nav > li{
   padding-left:2rem;
   padding-right:2rem;
@@ -27,4 +31,12 @@
     border: .1rem solid darkblue;
   }
 
-  
+  .accordion-button {
+    width: 28rem;
+    padding: .5rem;
+    margin: .2rem;
+    border: .1rem solid darkblue;
+    background-color: skyblue;
+  }
+
+  //SET HOVER FEATURES OVER THE BUTTONS (NAVBAR BUTTONS, ACCORDION BUTTON ETC.) SO THAT THEY DO THINGS LIKE TURN A SLIGHTLY DIFFERENT COLOUR WHEN YOU CLICK ON THEM//
