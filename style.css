@@ -33,7 +33,7 @@ body {
   }
 
   #homepageAccordionFirstImage, #homepageAccordionSecondImage, #homepageAccordionThirdImage, #homepageAccordionFourthImage, #homepageAccordionFifthImage {
-    width: 25%;
+    width: 100%;
   }
 
   #benefitsList, #improveList, #pilatesBullets, #medical, #qualifications {
