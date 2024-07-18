@@ -52,8 +52,11 @@ body {
     background-color: skyblue;
   }
 
-  #cardTwo, #cardFour {
-    display: inline-block;
+  .card {
+    margin: 0 auto;
+    float: none; 
+    margin-bottom: 1rem; 
+    border: .1rem solid darkblue;
   }
 
   //SET HOVER FEATURES OVER THE BUTTONS (NAVBAR BUTTONS, ACCORDION BUTTON ETC.) SO THAT THEY DO THINGS LIKE TURN A SLIGHTLY DIFFERENT COLOUR WHEN YOU CLICK ON THEM//
