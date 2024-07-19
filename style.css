@@ -1,5 +1,6 @@
 body {
   Font-family: ‘Segoe UI’, Arial, sans-serif;
+  background-color: #d0efff;
 }
 
 .navbar-nav > li{
@@ -20,7 +21,7 @@ body {
     padding: .5rem;
     margin: .2rem;
     border: .1rem solid darkblue;
-    background-color: skyblue;
+    background-color: #2ac2f4;
   }
 
   #introText {
@@ -49,7 +50,7 @@ body {
     padding: .5rem;
     margin: .2rem;
     border: .1rem solid darkblue;
-    background-color: skyblue;
+    background-color:  #2ac2f4;
   }
 
   .card {
