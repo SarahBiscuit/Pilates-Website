@@ -1,6 +1,6 @@
 To prevent a Bootstrap card from overflowing the screen, you can use a combination of CSS and Bootstrap classes. Here are a few tips:
 
-Use the container class: Wrap your card in a Bootstrap container to ensure it is responsive.
+DONE Use the container class: Wrap your card in a Bootstrap container to ensure it is responsive.
 Add overflow-hidden to the card: This will hide any overflowing content.
 Use img-fluid for images: This class makes images responsive within the card.
 Utilize table-responsive for tables: If your card contains a table, this class will make the table scrollable on smaller screens.
