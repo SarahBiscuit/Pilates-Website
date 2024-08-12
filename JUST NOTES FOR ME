@@ -1,3 +1,5 @@
+AM CURRENTLY PLAYING WITH DIFFERENT BOOSTRAP COLUMN WIDTHS TO FIT WITH DIFFERENT SCREEN SIZES.  THEN WILL MAKE SURE THAT THE CONTENT IS CENTERED ON EACH SCREEN SIZE
+
 To prevent a Bootstrap card from overflowing the screen, you can use a combination of CSS and Bootstrap classes. Here are a few tips:
 
 DONE Use the container class: Wrap your card in a Bootstrap container to ensure it is responsive.
