@@ -12,6 +12,10 @@ body {
   padding-right:2rem;
   }
 
+  .container, .container-fluid {
+    width: 100%;
+  }
+
   #heading {
     text-align: center;
     background-image: url("https://images.pexels.com/photos/1655166/pexels-photo-1655166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
