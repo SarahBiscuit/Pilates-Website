@@ -71,6 +71,12 @@ body {
     width: 80%;
   }
 
+  #bookingPhotoOne {
+    width: 80%;
+    justify-content: center;
+    display: inline-block;
+  }
+
   
 
   //SET HOVER FEATURES OVER THE BUTTONS (NAVBAR BUTTONS, ACCORDION BUTTON ETC.) SO THAT THEY DO THINGS LIKE TURN A SLIGHTLY DIFFERENT COLOUR WHEN YOU CLICK ON THEM//
