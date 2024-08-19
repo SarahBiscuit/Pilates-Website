@@ -12,13 +12,17 @@ body {
   padding-right:2rem;
   }
 
+  .container, .container-fluid {
+    width: 100%;
+  }
+
   #heading {
     text-align: center;
     background-image: url("https://images.pexels.com/photos/1655166/pexels-photo-1655166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     height: 10rem;
-    font-size: 6.5rem;
     color: #ffffff;
     width: 100%;
+    font-size: 6.5rem;
   }
     
   #welcomeHeadingBox {
@@ -29,13 +33,14 @@ body {
     background-color: #2ac2f4;
   }
 
-  #introText {
+  #introText, #bookingIntroText {
     display: inline-block;
     justify-content: center;
     padding: 1rem;
     margin: .2rem;
     border: .1rem solid darkblue;
     background-color: #f3faff;
+    width: 80%;
   }
 
   #homepageAccordionFirstImage, #homepageAccordionSecondImage, #homepageAccordionThirdImage, #homepageAccordionFourthImage {
@@ -63,6 +68,13 @@ body {
     float: none; 
     margin-bottom: 1rem; 
     border: .1rem solid darkblue;
+    width: 80%;
+  }
+
+  #bookingPhotoOne {
+    width: 80%;
+    justify-content: center;
+    display: inline-block;
   }
 
   
@@ -70,13 +82,9 @@ body {
   //SET HOVER FEATURES OVER THE BUTTONS (NAVBAR BUTTONS, ACCORDION BUTTON ETC.) SO THAT THEY DO THINGS LIKE TURN A SLIGHTLY DIFFERENT COLOUR WHEN YOU CLICK ON THEM//
    
   //HOMEPAGE FORMATTING IS FINE ON EVERY DEVICE PART FROM - Samsung Galaxy A51/71, Galaxy Z Fold 5, Surface Duo, Surface Pro 7, Samsung Galaxy S20 Ultra, Samsung Galaxy S8+, Pixel 7, IPhone 14 Pro Max, iPhone 12 Pro, iPhone XR, iPhone SE.  Basically is now fine in tablet and desktop view, but need to do some work on it for mobile view.// 
-  //MEASUREMENTS FOR DEVICES DOESN'T WORK ON - 
-  iPhone SE 375 x 667 – need to amend size of text over header image to fit on screen
-iPhone XR 414 x 896, iPhone12 Pro 390 x 844, iPhone 14 Pro Max 430 x 932, Pixel 7 412 x 915, Samsung Galaxy S8 360 x 740, Samsung Galaxy S20 Ultra 412 x 915, iPad Mini 768 x 1024  – some images hanging slightly off the screen.  Need to amend size of text over header image to fit on screen.
-Surface Duo 540 by 720, Galaxy Z Fold 5 344 x 822, Samsung Galaxy A51 A71 412 x 914 - text all aligns to left and heeader spreads out too far and goes off page//
 
-//Devices is working fine on - desktop, iPad Air 820 x 1180, iPad Pro 1024 x 1366, , Surface Pro 7 912 x 1368, Asus Zenbook Fold 853 x 1280, Nest Hub Max 1280 x 800, Nest Hub 1024 x 600//
-
-//HAVE TAKEN THE CONTACT DETAILS OUT OF THE FOOTER BAR (INC THE LINKS - THESE NEED ADDING BACK IN).  CONTACT DETAILS NEED TO GO BACK IN THE FOOTER//
+  //HAVE TAKEN THE CONTACT DETAILS OUT OF THE FOOTER BAR (INC THE LINKS - THESE NEED ADDING BACK IN).  CONTACT DETAILS NEED TO GO BACK IN THE FOOTER//
 
   //WHEN FINISHED RESIZING FOR DIFFERENT SCREENS, DO HOVER AND ALTS AND WORK ON SPELL CHECKING AND BREAKING UP BIG BLOCKS OF TEXT//
+
+
