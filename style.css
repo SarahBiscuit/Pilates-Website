@@ -33,7 +33,7 @@ body {
     background-color: #2ac2f4;
   }
 
-  #introText {
+  #introText, #bookingIntroText {
     display: inline-block;
     justify-content: center;
     padding: 1rem;
