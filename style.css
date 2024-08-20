@@ -33,7 +33,7 @@ body {
     background-color: #2ac2f4;
   }
 
-  #introText, #bookingIntroText {
+  #introText, #bookingIntroText, #secondBookingText {
     display: inline-block;
     justify-content: center;
     padding: 1rem;
