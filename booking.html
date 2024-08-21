@@ -67,13 +67,22 @@
         <div class="container">
             <form>
                 <label for="firstName"><h5><b>First Name</b></h5></label>
-                <input type="text" id="firstName" name="firstName" required>
+                    <input type="text" id="firstName" name="firstName" required>
                 <label for="secondName"><h5><b>Second Name</b></h5></label>
-                <input type="text" id="secondName" name="secondName" required>
+                    <input type="text" id="secondName" name="secondName" required>
                 <label for="emailAddress"><h5><b>Email Address</b></h5></label>
-                <input type="email" id="emailAddress" name="emailAddress" required>
+                    <input type="email" id="emailAddress" name="emailAddress" required>
                 <label for="phoneNumber"><h5><b>Phone Number <h6><b>(optional field)</b></h6></b></h5></label>
-                <input type="number" id="phoneNumber" name="phoneNumber">
+                    <input type="number" id="phoneNumber" name="phoneNumber">
+                <h5><b>Please choose the services that you are interested in</b></h5> <h6><b>(you can select more than one option)</b></h6>
+                    <input type="checkbox" id="option1" name="option" value="blockOfFourClasses">
+                        <label for="option1"><b>Block of Four Classes at Venue</b></label>
+                    <input type="checkbox" id="option2" name="option" value="privateTuitionOwnHome">
+                        <label for="option2"><b>Private Tuition in my Own Home</b></label>    
+                    <input type="checkbox" id="option3" name="option" value="privateTuitionStudio">
+                        <label for="option3"><b>Private Tuition in Mirrored Studio</b></label>
+                    <input type="checkbox" id="option4" name="option" value="antenatalConsultation">
+                        <label for="option4"><b>Antenatal Consultation</b></label>
             </form>
         </div>
         //FOR FORM, WANT TO INCLUDE FIRST NAME, LAST NAME, EMAIL ADDRESS (required field), PHONE NUMBER (optional field), TICK BOX TO INDICATE 
