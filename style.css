@@ -78,6 +78,14 @@ body {
     margin-right: auto;
     border: .1rem solid darkblue;
   }
+
+  #enquiriesForm {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   border: .1rem solid darkblue;
+  }
   
 
   //SET HOVER FEATURES OVER THE BUTTONS (NAVBAR BUTTONS, ACCORDION BUTTON ETC.) SO THAT THEY DO THINGS LIKE TURN A SLIGHTLY DIFFERENT COLOUR WHEN YOU CLICK ON THEM//
