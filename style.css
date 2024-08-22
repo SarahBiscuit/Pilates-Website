@@ -80,13 +80,17 @@ body {
   }
 
   #enquiriesForm {
-    width: 80%;
+    width: 50%;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
    border: .1rem solid darkblue;
    background-color: #f3faff;
+   padding: 1rem;
+   justify-content: center;
+   align-items: center;
   }
   
 
