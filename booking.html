@@ -65,33 +65,33 @@
                     </h5>
                 </div>
         </div>
-        <div class="container">
-            <form id="enquiriesForm">
-                <label for="firstName"><h5><b>First Name</b></h5></label>
-                    <input type="text" id="firstName" name="firstName" required>
-                <label for="secondName"><h5><b>Second Name</b></h5></label>
-                    <input type="text" id="secondName" name="secondName" required>
-                <label for="emailAddress"><h5><b>Email Address</b></h5></label>
-                    <input type="email" id="emailAddress" name="emailAddress" required>
-                <label for="phoneNumber"><h5><b>Phone Number <h6><b>(optional field)</b></h6></b></h5></label>
-                    <input type="number" id="phoneNumber" name="phoneNumber">
-                <h5><b>Please choose the services that you are interested in</b></h5> <h6><b>(you can select more than one option)</b></h6>
-                    <input type="checkbox" id="option1" name="option" value="blockOfFourClasses">
-                        <label for="option1"><b>Block of Four Classes at Venue</b></label>
-                    <input type="checkbox" id="option2" name="option" value="privateTuitionOwnHome">
-                        <label for="option2"><b>Private Tuition in my Own Home</b></label>    
-                    <input type="checkbox" id="option3" name="option" value="privateTuitionStudio">
-                        <label for="option3"><b>Private Tuition in Mirrored Studio</b></label>
-                    <input type="checkbox" id="option4" name="option" value="antenatalConsultation">
-                        <label for="option4"><b>Antenatal Consultation</b></label>
-                <h5><b>Do you want to be added to our mailing list?</b></h5>
-                    <input type="radio" id="radio1" name="yesNo" value="yes">
-                        <label for="radio1"><b>Yes</b></label>
-                    <input type="radio" id="radio2" name="yesNo" value="no">
-                        <label for="radio2"><b>No</b></label>
-                <label for="freeTextComments"><h5><b>Please Type Your Enquiry Here</b></h5></label>
-                    <textarea id="comment" name="comment" rows="8" cols="40"></textarea>
-                <button type="button" id="submitButton">Submit</button>  
+        <div class="flex-container">
+            <form id="enquiriesForm" class="flex-item">
+                <label for="firstName" class="flex-item"><h5><b>First Name</b></h5></label>
+                    <input type="text" id="firstName" name="firstName" class="flex-item" required>
+                <label for="secondName" class="flex-item"><h5><b>Second Name</b></h5></label>
+                    <input type="text" id="secondName" name="secondName" class="flex-item" required>
+                <label for="emailAddress" class="flex-item"><h5><b>Email Address</b></h5></label>
+                    <input type="email" id="emailAddress" name="emailAddress" class="flex-item" required>
+                <label for="phoneNumber" class="flex-item"><h5><b>Phone Number <h6><b>(optional field)</b></h6></b></h5></label>
+                    <input type="number" id="phoneNumber" name="phoneNumber" class="flex-item">
+                <h5 class="flex-item"><b>Please choose the services that you are interested in</b></h5> <h6><b>(you can select more than one option)</b></h6>
+                    <input type="checkbox" id="option1" name="option" value="blockOfFourClasses" class="flex-item">
+                        <label for="option1" class="flex-item"><b>Block of Four Classes at Venue</b></label>
+                    <input type="checkbox" id="option2" name="option" value="privateTuitionOwnHome" class="flex-item">
+                        <label for="option2" class="flex-item"><b>Private Tuition in my Own Home</b></label>    
+                    <input type="checkbox" id="option3" name="option" value="privateTuitionStudio" class="flex-item">
+                        <label for="option3" class="flex-item"><b>Private Tuition in Mirrored Studio</b></label>
+                    <input type="checkbox" id="option4" name="option" value="antenatalConsultation" class="flex-item">
+                        <label for="option4" class="flex-item"><b>Antenatal Consultation</b></label>
+                <h5 class="flex-item"><b>Do you want to be added to our mailing list?</b></h5>
+                    <input type="radio" id="radio1" name="yesNo" value="yes" class="flex-item">
+                        <label for="radio1" class="flex-item"><b>Yes</b></label>
+                    <input type="radio" id="radio2" name="yesNo" value="no" class="flex-item">
+                        <label for="radio2" class="flex-item"><b>No</b></label>
+                <label for="freeTextComments" class="flex-item"><h5><b>Please Type Your Enquiry Here</b></h5></label>
+                    <textarea id="comment" name="comment" rows="4" cols="40" class="flex-item"></textarea>
+                <button type="button" id="submitButton" class="flex-item">Submit</button> 
             </form>
         </div>
     </main>
