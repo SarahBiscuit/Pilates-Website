@@ -80,7 +80,6 @@ body {
   }
 
   #enquiriesForm {
-    width: 50%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -92,7 +91,7 @@ body {
    justify-content: center;
    align-items: center;
   }
-
+  
   .flex-item {
     flex-basis: auto;
     flex-grow: 1;
@@ -107,3 +106,4 @@ body {
   //HAVE TAKEN THE CONTACT DETAILS OUT OF THE FOOTER BAR (INC THE LINKS - THESE NEED ADDING BACK IN).  CONTACT DETAILS NEED TO GO BACK IN THE FOOTER//
 
   //WHEN FINISHED RESIZING FOR DIFFERENT SCREENS, DO HOVER AND ALTS AND WORK ON SPELL CHECKING AND BREAKING UP BIG BLOCKS OF TEXT//
+
