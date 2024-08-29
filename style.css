@@ -101,6 +101,11 @@ body {
   button {
     color: #111111;
     background-color: skyblue;
+    border: .05rem solid black;
+  }
+
+  input, textarea {
+    border: .05rem solid black;
   }
   
 
