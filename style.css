@@ -98,10 +98,11 @@ body {
     flex-shrink: 1;
   }
 
-  button {
+  #submitButton {
     color: #111111;
     background-color: skyblue;
     border: .05rem solid black;
+    font-weight: bold;
   }
 
   input, textarea {
