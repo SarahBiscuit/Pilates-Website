@@ -7,8 +7,11 @@ $message = $_POST["message"];
 
 $mailheader = "From:".$name."<".$email.">\r\n"
 
-$myemail = "scfletcher2000@hotmail.com";
+$myemail = "ADD MY EMAIL ADDRESS IN HERE";
 
 mail($myemail, $subject, $message, $mailheader)
+or die("can't send");
+
+echo"sent";
 
 ?>
