@@ -16,7 +16,7 @@ body {
     width: 100%;
   }
 
-  #heading, #heading2, #heading3 {
+  #heading {
     text-align: center;
     background-image: url("https://images.pexels.com/photos/1655166/pexels-photo-1655166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     height: 10rem;
@@ -33,7 +33,7 @@ body {
     background-color: #2ac2f4;
   }
 
-  #introText, #bookingIntroText, #secondBookingText, #introVenues {
+  #introText, #bookingIntroText, #secondBookingText {
     display: inline-block;
     justify-content: center;
     padding: 1rem;
