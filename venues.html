@@ -28,8 +28,7 @@
         <div>
             <h1 class="text-black fs-1 col-xs-12" id="heading" alt="picture of calm sea">Venues</h1>
             </div>
-            //PHOTOS NOT YET INCLUDED IN THE BOOTSTRAP ACCORDION CARDS (Just placeholder image), AS I WANT ELIZABETH TO TAKE PHOTOS OF THE VENUES SO THAT I CAN USE THOSE (AS OTHERWISE I CAN'T GET A CREATIVE COMMONS IMAGE THAT I AM ABLE TO USE)//
-            //FORMATTING OF THE BOOTSTRAP CARDS DOES NOT YET MATCH THAT ON INDEX.HTML. I AM MISSING SOMETHING IN MY CSS.//
+//WANT ELIZABETH TO TAKE PHOTOS OF THE VENUES THAT I CAN INCLUDE HERE.  FORMATTING OF THE BOOTSTRAP CARDS DOES NOT YET MATCH THAT ON INDEX.HTML. I AM MISSING SOMETHING IN MY CSS.//
             <div id="introToVenues" class="container">
                 <br>
                 <div id="container"
@@ -50,18 +49,16 @@
             </div>
             <br>
             <div class="accordion" id="venuesAccordion">
-                <div class="accordion-item">
-                    <div class="text-center">
+                <div class="accordion-item text-center">
                     <h4 class="accordion-header" id="itemVenuesOne">
                         <button type="button" class="accordion-button collapsed text-left" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1"><span><b>1. Grewelthorpe Village Hall</b></span></button>    
                 </h4>
-            </div>
-            <div id="collapse1" class="accordion-collapse collapse-show" aria-labelled-by="itemOne" data-bs-parent="#myAccordion">
+<div id="collapse1" class="accordion-collapse collapse-show" aria-labelled-by="itemOne" data-bs-parent="#myAccordion">
                 <div class="accordion-body col-xs-10">
                     <row>
                         <div class="card col-sm-6" id="cardVenuesOne">
                             <div class="card-header" id="cardOneVenuesHeader">
-                                <img src="Placeholder.png" alt="Grewelthorpe Village Hall" id="grewelthorpeImage"/>
+                                <img src="Placeholder.png" alt="Grewelthorpe Village Hall" class="accordionImage" />
                             </div>
                             <div class="card-body">
                                 <p>Classes are held on <strong>Mondays, 0930-1230</strong>.</p>
@@ -77,24 +74,27 @@
                             </div>
                             <div class="card-footer" id="grewelthorpeFooter">
                                 <p>A mixed ability class in a beautiful venue.  Everyone is welcome.  Please bring your own mat and resistance band.  Experienced participants will use light hand weights.</p>
+</div>
                             </div> 
                      </row>  
                 </div>
                 </div>
-                </div>
-                </div>
-                <div class="accordion-item">
-                <div class="text-center">
+            </div>
+
+
+
+
+
+                <div class="accordion-item text-center">
                 <h4 class="accordion-header" id="itemVenuesTwo">
                     <button type="button" class="accordion-button collapsed text-left" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2"><span><b>2. Kirkby Malzeard Mechanics Village Hall</b></span></button>
                 </h4>
-                </div>
                 <div id="collapse2" class="accordion-collapse collapse-show" aria-labelled-by="itemTwo" data-bs-parent="#myAccordion">
                     <div class="accordion-body">
                     <row>
                 <div class="card col-sm-6" id="cardVenuesTwo">
                     <div class="card-header" id="cardTwoVenuesHeader">
-                        <img src="Placeholder.png" alt="Kirkby Malzeard Mechanics Institute" id="kirkbyImage"/>
+                        <img src="Placeholder.png" alt="Kirkby Malzeard Mechanics Institute" class="accordionImage" />
                                 </div>
                         <div class="card-body">
                             <p>Classes are held on <strong>Mondays, 1600-1700</strong>.</p>
@@ -110,12 +110,12 @@
                         <div class="card-footer" id="kirkbyFooter">
                             <p>This class targets mobility and strengthening for people over 50, though all ages are welcome.  You will need your own good quality mat.  Roadside parking is available outside.</p>
                         </div> 
-                        </div>
-                    </div>
                     </div>
                     </row>  
                 </div>
                 </div>
+            </div>
+        </div>
                             </main>
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
