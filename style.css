@@ -41,6 +41,7 @@ body {
     border: .1rem solid darkblue;
     background-color: #f3faff;
     width: 80%;
+    font-size: 1.5rem;
   }
 
   .accordionImage {
