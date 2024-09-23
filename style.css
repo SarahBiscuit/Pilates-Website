@@ -57,6 +57,13 @@ body {
     font-size: 1.5rem;
   }
 
+  address {
+    display: block;
+    padding: .5rem;
+    margin: .2rem;
+    font-size: 1.5rem;
+  }
+
   .accordion-button {
     width: 23rem;
     padding: .5rem;
