@@ -16,7 +16,7 @@ body {
     width: 100%;
   }
 
-  #heading, #heading2, #heading3 {
+  #heading {
     text-align: center;
     background-image: url("https://images.pexels.com/photos/1655166/pexels-photo-1655166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     height: 10rem;
@@ -33,7 +33,7 @@ body {
     background-color: #2ac2f4;
   }
 
-  #introText, #bookingIntroText, #secondBookingText, #introVenues {
+  #introText, #secondBookingText {
     display: inline-block;
     justify-content: center;
     padding: 1rem;
@@ -41,9 +41,10 @@ body {
     border: .1rem solid darkblue;
     background-color: #f3faff;
     width: 80%;
+    font-size: 1.5rem;
   }
 
-  #homepageAccordionFirstImage, #homepageAccordionSecondImage, #homepageAccordionThirdImage, #homepageAccordionFourthImage, #grewelthorpeImage, #kirkbyImage {
+  .accordionImage {
     width: 100%;
   }
 
@@ -53,6 +54,14 @@ body {
     margin: .2rem;
     border: .1rem solid darkblue;
     background-color: #f3faff;
+    font-size: 1.5rem;
+  }
+
+  address {
+    display: block;
+    padding: .5rem;
+    margin: .2rem;
+    font-size: 1.5rem;
   }
 
   .accordion-button {
@@ -69,10 +78,11 @@ body {
     margin-bottom: 1rem; 
     border: .1rem solid darkblue;
     width: 80%;
+    font-size: 1.5rem;
   }
 
   #bookingPhotoOne {
-    width: 80%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -98,10 +108,11 @@ body {
     flex-shrink: 1;
   }
 
-  button {
+  #submitButton {
     color: #111111;
     background-color: skyblue;
     border: .05rem solid black;
+    font-weight: bold;
   }
 
   input, textarea {
@@ -109,7 +120,7 @@ body {
   }
 
   @media only screen and (max-width: 768px) {
-    #heading, #heading2, #heading3 {
+    #heading {
       text-align: center;
       background-image: url("https://images.pexels.com/photos/1655166/pexels-photo-1655166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
       height: 10rem;
