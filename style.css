@@ -48,7 +48,7 @@ body {
     width: 100%;
   }
 
-  #benefitsList, #improveList, #pilatesBullets, #medical, #qualifications, #onetooneList, #progressList, #beginnerList {
+  #benefitsList, #improveList, #pilatesBullets, #medical, #qualifications, #onetooneList, #progressList, #beginnerList, #awareList {
     display: inline-block;
     padding: .5rem;
     margin: .2rem;
