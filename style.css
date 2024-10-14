@@ -123,14 +123,10 @@ body {
     color: white;
   }
 
-  priceDeck {
+  .priceDeck {
     display: flex;
     flex-wrap: wrap;
-    flex-grow: 0;
-  }
-
-  .priceCard {
-width: 100rem;
+   justify-content: center;
   }
 
   @media only screen and (max-width: 768px) {
