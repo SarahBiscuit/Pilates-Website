@@ -123,6 +123,16 @@ body {
     color: white;
   }
 
+  priceDeck {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0;
+  }
+
+  .priceCard {
+width: 100rem;
+  }
+
   @media only screen and (max-width: 768px) {
     #heading {
       text-align: center;
