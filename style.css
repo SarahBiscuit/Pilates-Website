@@ -48,7 +48,7 @@ body {
     width: 100%;
   }
 
-  #benefitsList, #improveList, #pilatesBullets, #medical, #qualifications, #onetooneList, #progressList, #beginnerList, #awareList, #offerList, #pregnantAndExperienced, #pregnantList{
+  #benefitsList, #improveList, #medical, #qualifications, #onetooneList, #progressList, #beginnerList, #awareList, #offerList, #pregnantAndExperienced, #pregnantList{
     display: inline-block;
     padding: .5rem;
     margin: .2rem;
@@ -131,6 +131,24 @@ body {
       color: #ffffff;
       width: 100%;
       font-size: 4rem;
+    }
+
+    .card {
+      margin: 0 auto;
+      float: none; 
+      margin-bottom: 1rem; 
+      border: .1rem solid darkblue;
+      width: 80%;
+      font-size: 1rem;
+    }
+
+    #benefitsList, #improveList, #medical, #qualifications, #onetooneList, #progressList, #beginnerList, #awareList, #offerList, #pregnantAndExperienced, #pregnantList{
+      display: inline-block;
+      padding: .5rem;
+      margin: .2rem;
+      border: .1rem solid darkblue;
+      background-color: #f3faff;
+      font-size: 1rem;
     }
   }
   
