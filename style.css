@@ -48,7 +48,7 @@ body {
     width: 100%;
   }
 
-  #benefitsList, #improveList, #medical, #qualifications, #onetooneList, #progressList, #beginnerList, #awareList, #offerList, #pregnantAndExperienced, #pregnantList{
+  #benefitsList, #improveList, #pregnantAndExperiencedTwo, #medical, #qualifications, #onetooneList, #progressList, #beginnerList, #awareList, #offerList, #pregnantAndExperienced, #pregnantList{
     display: inline-block;
     padding: .5rem;
     margin: .2rem;
@@ -142,7 +142,7 @@ body {
       font-size: 1rem;
     }
 
-    #benefitsList, #improveList, #medical, #qualifications, #onetooneList, #progressList, #beginnerList, #awareList, #offerList, #pregnantAndExperienced, #pregnantList{
+    #benefitsList, #pregnantAndExperiencedTwo, #improveList, #medical, #qualifications, #onetooneList, #progressList, #beginnerList, #awareList, #offerList, #pregnantAndExperienced, #pregnantList{
       display: inline-block;
       padding: .5rem;
       margin: .2rem;
