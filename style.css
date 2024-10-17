@@ -12,6 +12,11 @@ body {
   padding-right:2rem;
   }
 
+.copyright {
+  color: white;
+  font-weight: bold;
+}
+
   .container, .container-fluid {
     width: 100%;
   }
