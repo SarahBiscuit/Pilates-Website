@@ -10,7 +10,7 @@ $mailheader = "From:".$name."<".$email.">\r\n"
 $myemail = "ADD MY EMAIL ADDRESS IN HERE";
 
 mail($myemail, $subject, $message, $mailheader)
-or die("can't send");
+or die("error");
 
 echo"sent";
 
