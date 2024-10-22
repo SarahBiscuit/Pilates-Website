@@ -185,6 +185,36 @@ body {
     }
 
   }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #ffffff;
+    }
+
+    #welcomeHeadingBox {
+      border: .1rem solid darkblue;
+      background-color: #2ac2f4;
+      color: black;
+    }
+
+    .card {
+      color: black;
+    }
+
+    #introText, #secondBookingText {
+      color: black;
+    }
+
+    #enquiriesForm {
+      color: black;
+    }
+    
+
+  }
+  
+
+    
   
 
   //SET HOVER FEATURES OVER THE BUTTONS (NAVBAR BUTTONS, ACCORDION BUTTON ETC.) SO THAT THEY DO THINGS LIKE TURN A SLIGHTLY DIFFERENT COLOUR WHEN YOU CLICK ON THEM//
