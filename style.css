@@ -129,8 +129,9 @@ body {
   }
 
   .priceCardSet {
-    width: 500rem;
-    justify-content: center;
+    display: flex;
+    place-items: center;
+    width: 100%;
   }
 
   .priceCard {
@@ -138,8 +139,6 @@ body {
    max-width: 20rem;
    font-size: 1rem;
    height: fit-content;
-   display: flex;
-   flex-direction: row;
    margin: 0 auto;
    float: none;
   }
@@ -147,7 +146,7 @@ body {
   @media only screen and (max-width: 768px) {
     #heading {
       text-align: center;
-      background-image: url("https://images.pexels.com/photos/1655166/pexels-photo-1655166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+      background-image: url(pexels-olenagoldman-933701.jpg);
       height: 10rem;
       color: #ffffff;
       width: 100%;
