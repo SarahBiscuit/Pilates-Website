@@ -34,7 +34,7 @@ body {
     display: inline-block;
     padding: .5rem;
     margin: .2rem;
-    border: .1rem solid darkblue;
+    border: none;
     background-color: #2ac2f4;
     border-radius: 15px;
   }
@@ -77,9 +77,9 @@ body {
     width: 23rem;
     padding: .5rem;
     margin: .2rem;
-    border: .1rem solid darkblue;
     background-color:  #2ac2f4;
     border-radius: 15px;
+    border: none;
   }
 
   .card {
@@ -163,7 +163,6 @@ body {
       color: #ffffff;
       width: 100%;
       font-size: 4rem;
-      border-radius: 15px;
     }
 
     .card {
