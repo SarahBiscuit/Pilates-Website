@@ -92,7 +92,19 @@ body {
     border-radius: 15px;
   }
 
-  .card .card-header
+  .card .card-header {
+    border-top-left-radius: 15px; 
+    border-top-right-radius: 15px;
+  }
+
+  .card .card-footer {
+    border-radius: 15px;
+  }
+
+  .card .accordionCardHeader {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
 
   #bookingPhotoOne {
     width: 100%;
@@ -158,7 +170,7 @@ body {
   }
 
   .priceCard .card-header {
-    border-top-left-radius: 15px; /* Customize as needed */
+    border-top-left-radius: 15px; 
     border-top-right-radius: 15px;
 }
 
