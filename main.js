@@ -1,0 +1,1 @@
+//add regex to verify email address entered in enquiries form is a valid email address.
