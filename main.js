@@ -18,6 +18,11 @@ console.log(validateEmail(email));
 
 //can't figure out why my HTML file and my jquery file are not linking up
 
+$("#submitButton").click(function(){
+    if (//add condition here to test if the email is valid - boolean that works out to true?) {
+        alert("Invalid email address - please amend your entry");
+})
+
 //This code currenlty logs true or false in the console, but need it to prevent the user from submitting the form if it is not a valid email address.  
 //Could also get it to bring up an error message (e.g. an alert) for the user if they enter an invalid email address.
 //Want to use jQuery event listener on submit button
