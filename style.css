@@ -133,6 +133,15 @@ body {
    border-radius: 15px;
    width: 68%;
   }
+
+  .inputField {
+    width: 80%;
+    height: 3rem;
+  }
+
+  .enquiryEntry {
+    height: 8rem;
+  }
   
   .flex-item {
     flex-basis: auto;
