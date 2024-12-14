@@ -131,6 +131,7 @@ body {
    justify-content: center;
    align-items: center;
    border-radius: 15px;
+   width: 68%;
   }
   
   .flex-item {
